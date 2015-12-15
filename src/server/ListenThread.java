@@ -32,8 +32,7 @@ public class ListenThread extends Thread {
 
 					Thread.sleep(50);
 					/**
-					 * что б небыло бесконечного цыкла который жрет процесорное
-					 * время
+					 * to avoid an infinite loop that eats CPU
 					 **/
 				}
 			} finally {

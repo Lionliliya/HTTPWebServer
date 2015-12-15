@@ -14,8 +14,8 @@ public class HTTPServer {
         listenThread = new ListenThread(port, path);
         listenThread.start();
     }
-    
+
     public void stop() {
-    	listenThread.interrupt();
+        listenThread.interrupt();
     }
 }
